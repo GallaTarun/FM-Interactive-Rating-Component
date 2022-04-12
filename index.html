@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Interactive Rating Component</title>
+    <link rel="icon" href="images/favicon-32x32.png" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="rating-content">
+        <div class="star circle">
+          <img src="images/icon-star.svg" alt="star-image">
+        </div>
+        <div class="card-info">
+          <h3 class="card-heading">How did we do?</h3>
+          <p class="card-p">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        </div>
+        <div class="rating">
+          <div id="r1" class="rating-btn circle">1</div>
+          <div id="r2" class="rating-btn circle">2</div>
+          <div id="r3" class="rating-btn circle">3</div>
+          <div id="r4" class="rating-btn circle">4</div>
+          <div id="r5" class="rating-btn circle">5</div>
+        </div>
+        <button class="submit">SUBMIT</button>
+      </div>
+      <div class="thankyou-content hidden">
+        <img src="images/illustration-thank-you.svg">
+        <div class="rating-result"></div>
+        <h3 class="card-heading">Thank you!</h3>
+        <p class="card-p">We appreciate you thanking the time to gice a rating. If you ever need more support, don't hesitate to get in touch!</p>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+
+</html>
